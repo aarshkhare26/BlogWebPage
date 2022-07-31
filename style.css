@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600&family=Uchen&display=swap');
+
+*{
+    font-family: 'Uchen', sans-serif;
+    background: url(./images/3.jpg);
+}
+
+.desc{
+ size: large;
+ background: url(./images/2.jpg);
+ margin-top: 0px;
+ color: aliceblue;
+}
+.blog-container{
+    border: 15px solid black;
+    margin-left: 300px;
+    margin-left: 300px;
+    text-align: center;
+    text-emphasis:inherit;
+    align-self: right;
+    /* padding: 20px; */
+width: 950px;
+height: 1100px;
+ background: url(./images/2.jpg) 
+
+}
+
+.image{
+    border: 30px solid brown;
+    width: 900px;
+    height: 600px; 
+  /* width: 900px; */
+    /* height: 600px; */
+    /* margin: 3px; */
+    margin-bottom: 0px;
+    padding: 0%;
+    /* background: url(./images/2.jpg) ; */
+
+    /* Blur effect */
+    /* -webkit-filter: blur(5px); 
+  filter: blur(5px); */
+/* 
+  Black and white effect */
+  /* -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); */
+
+
+/* for Hover effect */
+opacity: 1;
+display: block;
+/* width: 100%; */
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+
+}
+.title{
+    background: url(./images/2.jpg) ;
+    color: orange;
+}
+
+.btn {
+    size: 20px;
+align-items: center;
+border-radius: 5px;
+background: url(./images/4.jpg);
+}
+.btn:hover{
+    background-color:solid black;
+    background: red;
+    color: black;
+    border-radius: 15px;
+    transform: scale(1.25);
+    transition: 2s;
+
+}
+.title:hover{
+    color:white;
+    transform: scale(1.25);
+    transition: 2s;
+}
+
+/* img:hover{
+    width: 800px;
+    height: 500px;
+} */
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+.image:hover{
+    transform: scale(0.75);
+    transition: 2s;
+}
+
+.desc:hover{
+    transform: scale(1.25);
+    transition: 2s;
+    color:yellow;
+  
+}
+#footer {
+    position:fixed;
+    padding: 0px 10px 20px 10px;
+    bottom: 0;
+    font-size: 10px;
+    width: 150%;
+  color: white;
+    /* Height of the footer*/ 
+    height: 2.5px;
+    background: transparent;
+}
